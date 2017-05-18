@@ -12,7 +12,7 @@ object Hello {
   	object someGame{ val one="Mama's boy"; val two = "Papi's Boi"; val someProp = 82 }
   	f(someGame) // This still works since twoLvl :< oneLvl
 
-  	def g(param: Nothing) : Int = param
+  	def g(param: Nothing) : Int = param // since Nothing :< Int
   }
 
 }
